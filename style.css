@@ -89,7 +89,7 @@ a {
 .name {
     height:50px;
     font-family: monospace;
-    font-weight: bold;
+    font-weight: bolder;
     font-size:60px;
     text-align: center;
 }
