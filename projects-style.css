@@ -86,3 +86,27 @@
     font-family: monospace;
     text-align: center;
 }
+
+@media (min-width:100px) and (max-width:500px) {
+    .pv-container, .excam-container {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tiwonk-container {
+        height: 400px;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .pv-about, .tiwonk-about, .excam-about {
+        height: 60%;
+    }
+
+    .projects-container {
+        height:1500px;
+    }
+}
+
