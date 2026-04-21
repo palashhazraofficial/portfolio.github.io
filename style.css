@@ -16,6 +16,7 @@ body {
     height: 60%;
     width: 90%;
     background-color: rgba(37, 36, 36, 0.644);
+    border-radius: 5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -90,7 +91,7 @@ a {
     height:50px;
     font-family: monospace;
     font-weight: bold;
-    font-size: 30px;
+    font-size:30px;
     text-align: center;
 }
 
@@ -111,18 +112,40 @@ a {
   transition: 0.3s; 
 }
 
+.github-link {
+    height:50px;
+    width: 100%;
+    margin-bottom: 65px;
+    text-align: center;
+    font-family: monospace;
+    line-height: 5px;
+}
+
+
 @media (min-width:100px) and (max-width: 500px) {
+
     .home-container {
         height:760px;
         display: flex;
         flex-direction: column-reverse;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
     }
 
     .home-contain-B, .home-contain-A {
         margin: 10px;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    }
+
+    .github-link {
+        height: fit-content;
     }
 }
-
 
 
 
