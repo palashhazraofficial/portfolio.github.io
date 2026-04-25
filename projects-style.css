@@ -1,0 +1,112 @@
+.projects-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pv-container {
+    height: 200px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.pv-logo {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-image: url(pv-logo.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;
+}
+
+.pv-about {
+    height: 100%;
+    width: 75%;
+    font-family: monospace;
+    text-align: center;
+}
+
+.tiwonk-container {
+    height: 200px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.tiwonk-about {
+    height: 100%;
+    width: 75%;
+    font-family: monospace;
+    text-align: center;
+}
+
+.tiwonk-logo {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-image: url(tiwonk-logo.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(39, 99, 230);
+}
+
+.excam-container {
+    height: 200px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.excam-logo {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-image: url(excam-logo.png);
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(179, 26, 240);
+}
+
+.excam-about {
+    height: 100%;
+    width: 75%;
+    font-family: monospace;
+    text-align: center;
+}
+
+@media (min-width:100px) and (max-width:500px) {
+    .pv-container, .excam-container {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tiwonk-container {
+        height: 400px;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .pv-about, .tiwonk-about, .excam-about {
+        height: 60%;
+    }
+
+    .projects-container {
+        height:1500px;
+    }
+}
+

@@ -1,0 +1,145 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-back {
+    margin-left: 10px;
+}
+
+.page-container {
+    margin-top: 60px;
+    height:800px;
+}
+
+.name-container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url(pv-logo.jpg);
+    background-size: cover;
+    box-shadow: 0 0 20px rgb(236, 238, 241);
+
+}
+
+.name {
+    height: 50%;
+    width: 75%;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.problem-container {
+    height: 100px;
+    display: flex;
+}
+
+.problem-A {
+    height: 100%;
+    width:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.problem-B {
+    height: 100%;
+    width:75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sol-container {
+    height: 100px;
+    display: flex;
+}
+
+.sol-A {
+    height: 100%;
+    width:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sol-B {
+    height: 100%;
+    width:75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pub-container {
+    height: 30px;
+    display: flex;      
+}
+
+.pub-A {
+    height: 30px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pub-B {
+    height: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.link {
+    box-shadow: 0 0 20px rgba(2, 168, 38, 0.884);
+    background-color:rgba(2, 168, 38, 0.884);
+    height: 40px;
+    width: 150px;; 
+    color: white;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.contact-A {
+    height: 15px;
+    margin-bottom: 5px;
+}
+
+.contact-B {
+    box-shadow: 0 0 20px rgba(4, 134, 240, 0.884);
+    background-color:rgba(4, 134, 240, 0.884);
+    height: 40px;
+    width: 150px;; 
+    color: white;
+}
