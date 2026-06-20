@@ -8,4 +8,4 @@ Currently I have build few app -
 - AI MEET: (https://palashhazraofficial.github.io/aimeet.github.io/)
 
 You can find all the details of my apps and about myself which is on my protfolio.
-Protfolio: (https://palashhazraofficial.github.io/portfolio.github.io/)
+- Protfolio: (https://palashhazraofficial.github.io/portfolio.github.io/)
